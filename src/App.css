@@ -39,4 +39,7 @@ body {
   color: white;
 }
 
-
+.images {
+  height: 100%;
+  width: 100%;
+}
