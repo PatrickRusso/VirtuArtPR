@@ -1,16 +1,23 @@
 body {
   background-color: rgb(56, 56, 79);
   color: whitesmoke;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: end;
   color: white;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 30px;
 }
 
 .links {
   color: whitesmoke;
+  padding: 10px;
 }
 
 .links:hover {
@@ -18,18 +25,8 @@ body {
 }
 
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
 .App-header {
-  background-color: #282c34;
+  background-color: #22252c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,4 +39,64 @@ body {
 .images {
   height: 100%;
   width: 100%;
+}
+
+.searchresults {
+  display: grid;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchBar {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.searchButton {
+  background-color: #4CAF50;
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.homeButton {
+  background-color: rgb(63, 63, 108);
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  bottom: 10px;
+  left: 9%;
+  transform: translate(-50%);
+}
+
+.header-title {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  font-size: 20px;
 }

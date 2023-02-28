@@ -5,7 +5,7 @@ export default function Header () {
         <div>
         
         <div className="header-title">
-            <h1>Chicago Artwork webpage</h1>
+            <h1>Chicago's Institute of Art Online</h1>
         </div>
 
             <div className="nav-container">
