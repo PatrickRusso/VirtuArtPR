@@ -1,6 +1,9 @@
+import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
-import "./App.css";
+import Paintings from "./components/Paintings";
+import Nav from "./components/Nav";
+
 
 function App() {
   return (
