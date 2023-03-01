@@ -15,6 +15,7 @@ export default function Paintings() {
 
   return (
     <div className="searchContainer">
+      <h3 className="instruction">Search any word below and see what kind of art pops up!</h3>
       <input
         type="text"
         className="searchBar"
@@ -33,13 +34,14 @@ export default function Paintings() {
               <h3>{painting.title}</h3>
               <p>{painting.thumbnail.alt_text}</p>
               <p>{painting.dimensions}</p>
+              <p>{painting.date_end}</p>
             </div>
 
             <div className="images">
-              {/* <img
+              <img
                 src={painting.thumbnail.lqip}
                 alt={painting.thumbnail.alt_text}
-              /> */}
+              />
             </div>
           </li>
         ))}

@@ -22,6 +22,8 @@ body {
 
 .links:hover {
   color: pink;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 
@@ -47,20 +49,25 @@ body {
 
 .searchContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   height: 50vh;
   font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .searchBar {
-  width: 200px;
-  height: 30px;
-  padding: 5px;
+  width: 300px;
+  height: 40px;
+  padding: 10px 10px;
   border-radius: 5px;
   border: none;
   margin-right: 10px;
   font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(222, 219, 219);
+  margin-bottom: auto;
 }
 
 
@@ -69,11 +76,14 @@ body {
   color: whitesmoke;
   font-size: 16px;
   padding: 10px 20px;
-  border: none;
   border-radius: 4px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
-
+  border: #22252c;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10%;
 }
 
 .homeButton {
@@ -87,7 +97,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   position: fixed;
   bottom: 10px;
-  left: 9%;
+  left: 7%;
   transform: translate(-50%);
 }
 
@@ -99,4 +109,20 @@ body {
 
 .home {
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  }
+
+ul.searchresults {
+  max-height: 400px;
+  width: 65%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.instruction {
+  font-size: 25px;
+  margin-bottom: auto;
 }
