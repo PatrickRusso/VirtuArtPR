@@ -49,13 +49,13 @@ body {
 
 .searchContainer {
   display: flex;
+  columns: 1;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   height: 50vh;
   font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
-  justify-content: center;
 }
 
 .searchBar {
@@ -119,6 +119,7 @@ ul.searchresults {
   max-height: 400px;
   width: 65%;
   margin: 0 auto;
+  display: block;
   justify-content: center;
 }
 

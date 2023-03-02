@@ -15,7 +15,7 @@ export default function Paintings() {
 
   return (
     <div className="searchContainer">
-      <h3 className="instruction">Search any word below and see what kind of art pops up!</h3>
+      <h3 className="instruction">Search any word below and see what kind of art it relates to!</h3>
       <input
         type="text"
         className="searchBar"
