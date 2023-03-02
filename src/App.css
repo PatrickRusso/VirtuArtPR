@@ -49,10 +49,9 @@ body {
 
 .searchContainer {
   display: flex;
-  columns: 1;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   height: 50vh;
   font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
@@ -126,4 +125,24 @@ ul.searchresults {
 .instruction {
   font-size: 25px;
   margin-bottom: auto;
+}
+
+.wavy {
+  width: 20%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px black;
+}
+
+.left, .right {
+  font-size: 15px;
 }
